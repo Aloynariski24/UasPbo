@@ -1,0 +1,22 @@
+class DaftarOrder{
+    String IdPesanan;
+    String TanggalPesanan;
+    String MenuPesanan;
+    String HargaPesanan;
+}
+public class ObjectorientedProgramming{
+    public static void main (String[] args) {
+        
+        DaftarOrder DaftarOrderku=new DaftarOrder();
+        DaftarOrderku.IdPesanan="004";
+        DaftarOrderku.TanggalPesanan="13";
+        DaftarOrderku.MenuPesanan="AyamGuling";
+        DaftarOrderku.HargaPesanan="125.000";
+        
+        System.out.println("IdPesanan "+DaftarOrderku.IdPesanan);
+        System.out.println("TanggalPesanan  "+DaftarOrderku.TanggalPesanan);
+        System.out.println("MenuPesanan "+DaftarOrderku.MenuPesanan);
+        System.out.println("HargaPesanan "+DaftarOrderku.HargaPesanan);
+        
+    }
+}
